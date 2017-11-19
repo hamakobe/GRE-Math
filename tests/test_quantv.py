@@ -2,7 +2,7 @@ import quantv
 import unittest
 
 
-class TestQ(unittest.TestCase):
+class TestQuantV(unittest.TestCase):
     
     def setUp(self):
         self.hello_message = "Hello, Q User!"
