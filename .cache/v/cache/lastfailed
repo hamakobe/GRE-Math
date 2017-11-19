@@ -1,0 +1,5 @@
+{
+  "tests/test_Q.py::TestQ": true,
+  "tests/test_Q.py::TestQ::test_prints_hello_Q": true,
+  "tests/test_quantv.py::TestQ::test_prints_hello_Q": true
+}

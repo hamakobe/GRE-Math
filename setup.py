@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 setup(
-    name='Q',
+    name='QuantV',
     version='0.0.1',
     description='Functions for calculating GRE level math',
     long_description='Displayed on GitHub',
@@ -16,14 +16,14 @@ setup(
         ],
     keywords='GRE math functions',
     packages=find_packages(exclude = ['docs', 'tests*']),
-    install_requires=None
+    install_requires=[],
     package_data={
         'Q' : ['random_data.dat']
         },
     data_files=None,
     entry_points={
         'console_scripts': [
-            'hello=Q:say_hello',
+            'hello=quantv:say_hello',
             ],
         }
     )
