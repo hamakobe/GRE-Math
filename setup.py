@@ -16,7 +16,7 @@ setup(
         ],
     keywords='GRE math functions',
     packages=find_packages(exclude = ['docs', 'tests*']),
-    install_requires=['pymongo']
+    install_requires=None
     package_data={
         'Q' : ['random_data.dat']
         },
