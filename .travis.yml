@@ -1,10 +1,6 @@
 language: python
 python:
-    - "2.6"
     - "2.7"
-    - "3.3"
-    - "3.4"
-    - "3.5"
     - "3.6"
     - "pypy"
 # command to install dependencies
@@ -15,5 +11,8 @@ before_install:
 # command to run tests
 script: 
     - python setup.py test
+# command to test coverage, but only on 3.6
 after_success:
-    - coveralls
+    - if [[ $ENV == python=3.6* ]]; then
+          coveralls;
+      fi
