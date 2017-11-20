@@ -10,3 +10,9 @@ class TestQuantV(unittest.TestCase):
     def test_prints_hello_QuantV(self):
         output = quantv.hello()
         assert(output == self.hello_message)
+        
+    def is_even(x):
+        if x%2==0:
+            return True
+        else:
+            return False
