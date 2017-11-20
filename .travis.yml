@@ -12,6 +12,6 @@ before_install:
 # command to run tests
 script: 
     - pytest
-# command to test coverage, but only on 3.6
+# command to test coverage
 after_success:
     - coveralls
